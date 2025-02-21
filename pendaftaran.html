@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Teater Lingkar adalah sebuah kelompok seni teater yang berkedudukan di Semarang">
+    <meta name="keywords" content="teater lingkar semarang, teater lingkar, teater, mas ton lingkar, teater di semarang">
+    <meta name="author" content="Teater Lingkar">
+    <link rel="icon" href="Logo/Logo-Teater-Lingkar.png"> </link>
+
+    <title>Teater Lingkar Semarang</title>
+
+    <link rel="stylesheet" href="pendaftaran.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+     <!-- Navbar Start -->
+     <div class="navbar-fix">
+        <div class="container-navbar">
+         <nav>
+             <div class="logo">
+                 <img src="Logo/Logo-Teater-Lingkar.png" alt="logo teater lingkar">
+             </div>
+             <ul id="menuList">
+                 <li><a href="index.html">Beranda</a></li>
+                 <li><a href="program.html">Program</a></li>
+                 <li><a href="pendaftaran.html" style="color: darkgrey;">Pendaftaran</a></li>
+                 <li><a href="tentang.html">Tentang Kami</a></li>
+             </ul>
+             <div class="menu-icon">
+                 <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+             </div>
+         </nav>
+      </div>
+     </div>
+     <!-- Navbar End -->
+    <br><br><br><br><br><br>
+
+    <!-- form daftar start -->
+    <div class="container-form">
+        <div class="box-form">
+            <h2 style="text-align: center; margin-top: 10px;">Form Pendaftaran</h2>
+            <br>
+            <form onsubmit="sendMessage()">
+                <div class="forms">
+                    <label for="nama">Nama Lengkap</label> <br>
+                    <input type="text" id="nama" placeholder="Nama Lengkap" required>
+                </div>
+
+                <div class="forms">
+                    <label for="umur">Umur</label> <br>
+                    <input type="number" id="umur" placeholder="Umur" required>
+                </div>
+
+                <div class="forms">
+                    <label for="wa">No. Wa</label> <br>
+                    <input type="number" id="wa" placeholder="No. Whatsapp" required>
+                </div>
+
+
+                <div class="forms">
+                    <label for="cita">Cita-Cita</label> <br>
+                    <input type="text" id="cita" placeholder="Cita-Cita" required>
+                </div>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    </div>
+    <!-- form daftar end -->
+    <br><br>
+
+    <!-- faq start -->
+    <div class="faq-container">
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-regular fa-circle-question"></i>
+            </div>
+            <div class="text-main">
+                <h3>Teater Lingkar Itu Apa Sih?</h3>
+                <span>Sebuah sanggar seni yang tidak hanya mengajarkan tentang seni teater tetapi juga seni tari dan musik gamelan</span>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+            </div>
+            <div class="text-main">
+                <h3>Apakah Pendaftarannya Berbayar?</h3>
+                <span>Pedaftaran untuk bergabung pada Teater Lingkar Semarang tidak di pungut biaya apapun atau bisa dikatakan gratis</span>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-solid fa-person-circle-question"></i>
+            </div>
+            <div class="text-main">
+                <h3 class="syarat-gabung">Apakah Ada Syarat Untuk Bergabung?</h3>
+                <span>Untuk Sindhu Laras Bocah memiliki persyaratan umur 6-19 Tahun. Untuk dewasa tidak ada spesifikasi khusus, bahkan individu yang sudah bekerja juga dapat mengikuti.</span>
+            </div>
+        </div>
+
+        <div class="faq-box">
+            <div class="font-awesome">
+                <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="text-main">
+                <h3 class="informasi">Bagaimana mendapatkan informasi terbaru tentang kegiatan atau acara Teater Lingkar?</h3>
+                <span>Sebuah sanggar seni yang tidak hanya mengajarkan tentang seni teater tetapi juga seni tari dan musik gamelan</span>
+            </div>
+        </div>
+    </div>
+    <!-- faq end -->
+    <br><br>
+    <!-- footer start  -->
+    <div class="container-footer">
+        <div class="footer">
+        <div class="kiri">
+            <h3>Sanggar Kami :</h3>
+            <p>Jl. Gemahsari VII No. 305, Kedungmundu, Kec. Tembalang, Kota Semarang, Jawa Tengah 50273</p>
+
+            <div class="logo">
+                <img class="teater" src="Logo/Logo-Teater-Lingkar.png" alt="logo teater lingkar">
+                <img class="sindhularas" src="Logo/sindhu laras bocah logo.png" alt="logo sindhularas bocah">
+            </div>
+            
+            <h4>Segera Daftarkan Dirimu :</h4>
+            <a href="pendaftaran.html">Hubungi Kami</a>
+        </div>
+
+        <div class="kanan">
+            <div class="teater-lingkar">
+                <h4>Teater Lingkar</h4>
+                <a href="program.html">Program</a><br>
+                <a href="pendaftaran.html">Pendaftaran</a><br>
+                <a href="tentang.html">Tentang Kami</a><br>
+                <a href="https://api.whatsapp.com/send/?phone=6287833382280&text&type=phone_number&app_absent=0">Hubungi Kami</a>
+            </div>
+
+            <div class="ikuti-kami">
+                <h4>Ikuti Kami</h4>
+                <a href="https://www.instagram.com/teaterlingkarsemarang.official/">Instagram</a><br>
+                <a href="https://www.facebook.com/teaterlingkarsemarang.official/?locale=id_ID">Facebook</a><br>
+                <a href="https://twitter.com/LingkarOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">X Twitter</a><br>
+                <a href="https://www.youtube.com/channel/UCtUEq8Q3ljuzesqwkP5xdUg/videos">Youtube</a>
+            </div>
+
+            <div class="kegiatan-kami">
+                <h4>Kegiatan Kami</h4>
+                <a href="program.html">Sindhu Laras Bocah</a><br>
+                <a href="program.html">Wayang Kulit</a><br>
+                <a href="program.html">Karawitan</a><br>
+                <a href="program.html">Teater</a>
+                <a href="program.html">Tari</a>
+            </div>
+
+            <div class="kunjungi-kami">
+                <h4>Kunjungi Kami</h4>
+                <a href="https://maps.app.goo.gl/Ty8mXUwRZYNcGy3U7">Sanggar Teater Lingkar</a><br>
+                <a href="https://maps.app.goo.gl/Ty8mXUwRZYNcGy3U7">Galeri Teater Lingkar</a><br>
+                <a href="https://maps.app.goo.gl/JvHsv8FRrYAyCK9u5">TBRS Semarang</a><br>
+            </div>
+
+            <div class="pustaka-kesenian">
+                <h4>Pustaka Kesenian</h4>
+                <a href="#">Gamelan</a><br>
+                <a href="#">Wayang</a><br>
+                <a href="#">Teater</a><br>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="copyright">
+        <p>@copyright teater lingkar</p>
+        
+        <div class="sosmed">
+            <a href="https://www.instagram.com/teaterlingkarsemarang.official/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/teaterlingkarsemarang.official/?locale=id_ID"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/LingkarOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"></a>
+            <a href="https://www.youtube.com/channel/UCtUEq8Q3ljuzesqwkP5xdUg/videos"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+    <br>
+    </div>
+    <!-- footer end-->
+
+    <script>
+        // Navbar start
+        let menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu(){
+            if(menuList.style.maxHeight == "0px")
+        {
+            menuList.style.maxHeight = "300px";
+        }
+        else{
+            menuList.style.maxHeight = "0px"
+        }
+        }
+        // navbar end
+
+        // pendaftaran start
+        function sendMessage() {
+            const nama = document.getElementById ('nama').value;
+            const umur = document.getElementById ('umur').value;
+            const wa = document.getElementById ('wa').value;
+            const cita = document.getElementById ('cita').value;
+
+            const url = "https://api.whatsapp.com/send?phone=6287833382280&text=Halo%20admin%20saya%20ingin%20mendaftar%20sebagai%20anggota%20Teater%20Lingkar.%20Berikut%20form%20pendukung%20untuk%20pendaftaran%20saya%20%3A%0A%0ANama%20%3A%20*"+ nama +"*%0AUmur%20%3A%20*"+ umur +"*%0ANo.%20Wa%20%3A%20*"+ wa +"*%0ACita-Cita%20%3A%20*"+ cita +"*";
+
+            window.open(url);
+        }
+    </script>
+</body>
+</html>
